@@ -1,0 +1,131 @@
+body#styleweb
+{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 14pt; 
+    background: url(web.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #c7b39b; 
+    color: #333;
+  }
+body#styleTest
+{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 14pt; 
+    background: url(test.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #c7b39b; 
+    color: #333;
+}
+body#styleFAQ 
+{
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 14pt; 
+  background: url(vopr.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #c7b39b; 
+  color: #333; 
+}
+body#styleBack
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt; 
+    background: url(back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #c7b39b; 
+    color: #333; 
+}
+body#LR
+{
+  background-color: #c7b39b; 
+  color: #333; 
+}
+a 
+{
+  font-family: Georgia, Times, serif;
+  font-size:21pt; 
+  color:#ff6600; 
+  font-weight:bold
+}
+a:hover 
+{
+  font-size:21pt; 
+  color:#ff0000; 
+  font-weight:bold
+}
+a:visited
+{
+  font-size:21pt;
+  font-family: 'Courier New', Courier, monospace;
+  color:#1a819d; 
+  font-weight:bolder
+}
+a:active
+{
+  font-size:21pt;
+  font-family: 'Courier New', Courier, monospace;
+  color:#1dd6c1; 
+  font-weight:bolder
+}
+h1 
+{
+  color: #a52a2a; 
+  font-size: 21pt; 
+  font-family: Georgia, Times, serif; 
+  font-weight: normal;
+}
+h1#section4
+{
+  text-align: center;
+  color: #a52a2a;
+  font-size: 21pt;
+  font-family: Georgia, Times, serif; 
+  font-weight: normal; 
+}
+h2 
+{
+  color: #472aa5; 
+  font-size: 16pt; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-weight: normal;
+}
+p 
+{
+  text-align: justify; 
+  margin-left: 40px;
+  margin-right: 5px; 
+  padding-left: 5px; 
+  padding-bottom: 5px;
+}
+p:first-letter 
+{
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 200%; 
+  color: red; 
+}
+ol
+{
+  text-align: justify; 
+  margin-left: 80px;
+  margin-right: 10px;
+  padding-left: 10px; 
+  padding-bottom: 10px; 
+}
+form#Test
+{
+  font-family: Georgia, Times, serif; 
+  text-align: justify; 
+  margin-left: 40px; 
+  margin-right: 5px; 
+  padding-left: 5px; 
+  padding-bottom: 5px; 
+  color: rgb(0, 98, 255);
+}
+
