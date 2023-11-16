@@ -1,0 +1,77 @@
+table#table2
+{
+  margin: auto; 
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+  width: 50%;
+  margin-bottom: 20px;
+  border-collapse: collapse; 
+  border: 1px solid #030000;
+}
+table#table2 th
+{
+  font-weight: bold;
+  padding: 5px;
+  background: #613ebb;
+  border: 1px solid #030000;
+  color: white;
+}
+table#table2 td:first-child
+{
+  font-weight: bold;
+  color: rgb(52, 4, 4);
+  background: #5f4e8a;
+}
+table#table2 td
+{
+  border: 1px solid #030000;
+  padding: 5px;
+}
+table#table2 tr:nth-child(odd)
+{
+  background: #dced9f;
+}
+table#table2 tr:nth-child(even)
+{
+  background: #99c10b;
+}
+table#table3
+{
+  margin: auto; 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+  width: 50%;
+  margin-bottom: 20px;
+  border-collapse: collapse; 
+  border: none;
+  background: white;
+}
+table#table3 th
+{
+  font-weight: bold;
+  padding: none;
+  background: #3a05c3;
+  border: 4px solid white;
+  color: white;
+  border-top: none;
+}
+table#table3 tr td:first-child, table#table3  tr th:first-child
+{
+	border-left: none;
+}
+table#table3 tr td:last-child, table#table3  tr th:last-child
+{
+	border-right: none;
+}
+table#table3 td
+{
+  background: white;
+  border: 1px solid white;
+  padding: none;
+}
+table#table3 tr
+{
+  background: white;
+}

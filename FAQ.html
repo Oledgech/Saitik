@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="utf-8">
+  <title>Обратная связь</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="table.css">
+  <link rel="stylesheet" href="button.css">
+  <style type="text/css">
+    div.header {width:1900px; height:100px; background: url(cyber.jpg) }
+    div.right_col {width:630px; height:auto; float:left; margin-bottom:-15px}
+    div.footer {width:1900px; height:auto; background-color:#717dc9; clear:both;border-top: 3px solid #10a276;}
+    div.left_col {width:600px; height:auto; float:left; margin-bottom:-15px;}
+    div.center_col {width:630px;height: auto; float:left; margin-left:15px; margin-right:5px;border-right:3px solid #10a276;border-left: 3px solid #10a276;}
+    div.g_menu {width:1894px; height:54px; background-color:#0d143d; border: 3px solid #10a276;}
+  </style>
+</head>
+<body>
+    <div class="simple-linear">
+
+      <div class="header">
+        <h1 style = " font-size: 25pt; color:#e1e1e1; "><strong>WebProg.ru</strong></h1>
+      </div>
+
+      <div class="g_menu regular-progression">
+
+          <div class="dropdown" style="float:left;">
+            <button id="button2">JavaScript</button id="button2">
+              <div class="dropdown-content">
+                <a href="https://learn.javascript.ru/">Учебник по JavaScript</a>
+            </div>
+          </div>
+
+          <div class="dropdown" style="float:left;">
+            <button id="button2">HTML</button id="button2">
+            <div class="dropdown-content">
+              <a href="https://htmlbook.ru/samhtml">Самоучитель HTML</a>
+              <a href="https://htmlbook.ru/html">Справочник по HTML</a>
+              <a href="https://htmlbook.ru/html5">HTML5</a>
+            </div>
+          </div>
+
+          <div class="dropdown" style="float:left;">
+            <button id="button2">CSS</button id="button2">
+              <div class="dropdown-content">
+                <a href="https://htmlbook.ru/samcss">Самоучитель CSS</a>
+                <a href="https://htmlbook.ru/css">Справочник CSS</a>
+                <a href="https://htmlbook.ru/css3">CSS3</a>
+              </div>
+            </div>
+
+          <form action="web.html" target="_blank"> 
+            <button id="button2">Сайт</button id="button2">
+          </form>
+
+      </div>
+
+  <div class="left_col">
+    <div class="section ">
+      <p>Меню</p>
+      <ul>
+        <li><a href="#section1">Что относится к Web-программированию?</a>&#129300;</li>
+        <li><a href="#section2">Что включает в себя web-программирование?</a>&#128530;</li>
+        <li><a href="#section3">Что должен знать и уметь web-программист?</a>&#129297;</li>
+        <li><a href="#section4">Почта для вопросов</a></li>
+        <li><a href="back.html">Оратная связь</a></li>
+        <li><a href="test.html">Пройти тест</a></li>
+        <li><a href="web.html">Сайт</a></li>
+      </ul>
+    </div>
+
+    <div class="section "> 
+      <p>Вход</p>
+        <div style = "text-align: center;">
+
+          <form id="Test">
+            <label for="lname"><div style = "text-align:left; margin-bottom:-15px; margin-left:33px">E-mail:</div></label><br>
+            <input type="text" id="lname" name="lname" style="width: 400px; height: 25px;"><br>
+          </form>
+
+          <form id="Test">
+            <label for="adres"><div style = "text-align:left; margin-bottom:-15px; margin-left:33px">Пароль:</div></label><br>
+            <input type="text" id="adres" name="adres"  style="width: 400px; height: 25px;"><br>
+          </form>
+
+          <label>
+            <input type="checkbox" name="happy" value="yes">Запомнить?
+          </label>
+
+          <a style = " font-size: 14px; color:#167734; " href="https://example.com/">Регистрация</a>
+          <a style = "font-size: 14px; color:#167734; " href="https://example.com/">Восстановит пароль</a>
+          <br><br>
+          <button id="button2">Вход</button id="button2">
+        </div>
+        </div>
+  </div>
+
+  <div class="center_col" id="center">
+    <h1><strong>FAQ: коротко о главном</strong></h1>
+    <hr>
+    <h1 id="section1">Что относится к Web-программированию?</h1>
+    <p>Это разработка web-приложений, сайтов и любых страниц в сети, а также мобильных приложений. Создаются не только сами сайты, но и софт, который обеспечивает их эффективную и корректную работу.</p>
+    <h1 id="section2">Что включает в себя web-программирование?</h1>
+    <p>Разработку серверной части веб-приложения, функционала сайта и его связи с базами данных (backend), разработку клиентской части или интерфейса (frontend), верстку страниц в соответствии с техническим заданием от дизайнеров и фронтендеров.</p>
+    <h1 id="section3">Что должен знать и уметь web-программист?</h1>
+    <p>Знать языки web-программирования для фронтенда и бэкенда;
+        уметь работать с базами данных; 
+        разбираться в структурах данных и алгоритмах. </p>
+        <center><img src="smile.jpg" width="376" height="256"  alt="смайлик"></center>
+    <h1 id="section4" style="text-align:center;">Есть <sup>вопрос?</sup></h1>
+    <p style="text-align:center;">Если у Вас появились вопросы по материалам на сайте, то пожалуйста, пришлите нам их на почтовый адрес <a href=support@webb.ru>support@webb.ru</a>. Мы обязательно ответим.</p>
+    <div style = "text-align: center;">
+      <form action="web.html" target="_blank">
+        <button id="button2">&#128072;Назад</button id="button2">
+      </form>
+    </div>
+  </div>
+  <div class="right_col">
+    <div class="wrapper exmpl">
+      <img src="web_2.jpg">
+    </div>
+  </div>
+  
+  <div class="footer">
+      <p>Выполнил: Овчинников Олег Алексеевич</p>
+      <p>Группа: 3БИВТ_МП</p>
+      <p>Дисциплина: Web-программирование и основы web-дизайна</p>
+      <p>© 2023 МАУ</p>
+  </div>
+
+  </div>
+</body>
+</html>
