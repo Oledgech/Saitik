@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Web-программирование</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="button.css">
+    <style type="text/css">
+    div.header {width:1900px; height:100px; background: url(cyber.jpg) }
+    div.right_col {width:630px; height:auto; float:left; margin-bottom:-15px}
+    div.footer {width:1900px; height:auto; background-color:#717dc9; clear:both;border-top: 3px solid #10a276;}
+    div.left_col {width:600px; height:auto; float:left; margin-bottom:-15px;}
+    div.center_col {width:630px;height: auto; float:left; margin-left:15px; margin-right:5px;border-right:3px solid #10a276;border-left: 3px solid #10a276;}
+    div.g_menu {width:1894px; height:54px; background-color:#0d143d; border: 3px solid #10a276;}
+    </style>
+</head>
+<body>
+      <div class="simple-linear">
+
+        <div class="header">
+          <h1 style = " font-size: 25pt; color:#e1e1e1; "><strong>WebProg.ru</strong></h1>
+        </div>
+
+        <div class="g_menu regular-progression">
+
+            <div class="dropdown" style="float:left;">
+              <button id="button2">JavaScript</button id="button2">
+                <div class="dropdown-content">
+                  <a href="https://learn.javascript.ru/">Учебник по JavaScript</a>
+              </div>
+            </div>
+
+            <div class="dropdown" style="float:left;">
+              <button id="button2">HTML</button id="button2">
+              <div class="dropdown-content">
+                <a href="https://htmlbook.ru/samhtml">Самоучитель HTML</a>
+                <a href="https://htmlbook.ru/html">Справочник по HTML</a>
+                <a href="https://htmlbook.ru/html5">HTML5</a>
+              </div>
+            </div>
+
+            <div class="dropdown" style="float:left;">
+              <button id="button2">CSS</button id="button2">
+                <div class="dropdown-content">
+                  <a href="https://htmlbook.ru/samcss">Самоучитель CSS</a>
+                  <a href="https://htmlbook.ru/css">Справочник CSS</a>
+                  <a href="https://htmlbook.ru/css3">CSS3</a>
+                </div>
+              </div>
+
+            <form action="web.html" target="_blank"> 
+              <button id="button2">Сайт</button id="button2">
+            </form>
+
+        </div>
+  
+    <div class="left_col">
+      <div class="section ">
+        <p>Меню</p>
+        <ul>
+          <li><a href="#section1">Что такое web-разработка</a></li>
+          <li><a href="#section2">Виды веб-разработки</a></li>
+          <li><a href="#section3">Распространенные  языки веб-программирования</a></li>
+          <li><a href="#section4">Серверные и клиентские языки</a></li>
+          <li><a href="test.html">Пройти тест</a></li>
+          <li><a href="FAQ.html">FAQ</a></li>
+          <li><a href="back.html">Обратная связь</a></li>
+        </ul>
+      </div>
+
+      <div class="section "> 
+        <p>Вход</p>
+          <div style = "text-align: center;">
+
+            <form id="Test">
+              <label for="lname"><div style = "text-align:left; margin-bottom:-15px; margin-left:33px">E-mail:</div></label><br>
+              <input type="text" id="lname" name="lname" style="width: 400px; height: 25px;"><br>
+            </form>
+  
+            <form id="Test">
+              <label for="adres"><div style = "text-align:left; margin-bottom:-15px; margin-left:33px">Пароль:</div></label><br>
+              <input type="text" id="adres" name="adres"  style="width: 400px; height: 25px;"><br>
+            </form>
+  
+            <label>
+              <input type="checkbox" name="happy" value="yes">Запомнить?
+            </label>
+
+            <a style = " font-size: 14px; color:#167734; " href="https://example.com/">Регистрация</a>
+            <a style = "font-size: 14px; color:#167734; " href="https://example.com/">Восстановит пароль</a>
+            <br><br>
+            <button id="button2">Вход</button id="button2">
+          </div>
+          </div>
+    </div>
+
+    <div class="center_col" id="center">
+      <h1><strong>Web-программирование:<br>особенности и языки</strong></h1>
+      <hr>
+        <p>Веб-программирование — раздел программирования, ориентированный на разработку веб-приложений (программ, обеспечивающих функционирование динамических сайтов Всемирной паутины).
+            Языки веб-программирования — это языки, которые в основном предназначены для работы с веб-технологиями. Языки веб-программирования можно условно разделить на две пересекающиеся группы: клиентские и серверные.</p>
+        <h1 id="section2">Виды веб-разработки</h1>
+        <p>В web-разработке есть разные направления, которые объединяют различные задачи при создании сайта или разработке веб-приложения.</p>
+        <h2><b><i>Backend-разработка</i></b></h2>
+        <p>Backend-разработка — это создание серверной части, которая обеспечивает правильную работу сайта. Backend-разработчик программирует функционал сайта, например, внутреннюю механику процесса заказа товаров в интернет-магазине. Для этого он работает с базами данных и связывает их с веб-приложением, настраивает доступ к сайту, авторизацию, систему безопасности и резервное копирование информации.</p>
+        <h2><b><i>Frontend-разработка</i></b></h2>
+        <p>Задача фронтенд-разработчика — обеспечить максимально позитивный пользовательский опыт при взаимодействии с сайтом. Он расставляет кнопки, оформляет визуальные компоненты, выстраивает логику переходов между разделами, адаптирует сайт под все устройства и следит за корректным отображением страниц.</p>
+        <h2><b><i>Верстка страниц</i></b></h2>
+        <p>Верстка сайта или HTML-верстка — это часть фронтенд-разработки, которую в крупных компаниях отдают отдельному специалисту, HTML-верстальщику. Фронтенд-разработчик отвечает полностью за интерфейс веб-приложения: как он будет выглядеть в целом, как будет работать его логика. Верстальщик отвечает только за отдельные страницы: он верстает их по техническому заданию, переводит задумки дизайнера в код на HTML и CSS. От правильной верстки зависит скорость работы сайта или приложения, возможность попадать в топ выдачи поисковых агрегаторов, корректность отображения страниц на разных устройствах.</p> 
+        <h1 id="section3">Распространенные языки веб-программирования</h1>
+        <p>Когда человек хочет начать «писать для интернета», ему нужно выучить специальный язык.</p>
+        <h2><b><i>JavaScript</i></b></h2>
+        <p>JS – это язык, который выступает в качестве основного в веб-программировании. Задействован преимущественно при фронтенд. Он поддерживается большинством современных браузеров: как компьютерных, так и мобильных.<br><br>Выделяется JS следующими особенностями:</p>
+        <ol>
+          <li>простой и понятный синтаксис;</li>
+          <li>совместимость почти со всеми браузерами;</li>
+          <li>наличие онлайн туториалов, а также документации.</li>
+        </ol>
+        <h2><b><i>PHP</i></b></h2>
+        <p>Серверный язык. PHP создан для веб-разработки. Код, написанный на нем, внедряется в HTML без затруднений.<p>
+        <h2><b><i>React</i></b></h2>
+        <p>Это – инструмент для создания софта «для интернета». Базируется на JS. Речь идет о фреймворке под названием React. Разработчиком выступила корпорация Facebook.
+        У React предусматриваются готовые решения для web apps. Именно так гласит Google. Библиотека изучается с нуля, как дополнение к JS, CSS и HTML.</p>
+        <h1 id="section4">Серверные и клиентские языки</h1>
+        <table id="table2">
+          <tr>
+             <th>Серверные</th>
+             <th>Клиентские языки</th>
+          </tr>
+          <tr>
+             <td>JavaScript</td>
+             <td> PHP</td>
+          </tr>
+           <tr>
+             <td>ActionScript</td>
+             <td>Perl</td>
+           </tr>
+           <tr>
+              <td>&nbsp;</td>
+              <td> Python</td>
+           </tr>
+           <tr>
+              <td>&nbsp;</td>
+              <td> Ruby</td>
+           </tr>
+         </table>
+         <div style = "text-align: center;">
+          <img width="376" height="256" src="lang.png">
+        </div>
+    </div>
+    <div class="right_col">
+      <div class="wrapper exmpl">
+        <img src="web_2.jpg">
+      </div>
+    </div>
+    
+    <div class="footer">
+        <p>Выполнил: Овчинников Олег Алексеевич</p>
+        <p>Группа: 3БИВТ_МП</p>
+        <p>Дисциплина: Web-программирование и основы web-дизайна</p>
+        <p>© 2023 МАУ</p>
+    </div>
+
+    </div>
+
+</body>
+</html>

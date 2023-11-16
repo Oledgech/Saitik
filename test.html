@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Обратная связь</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="table.css">
+  <link rel="stylesheet" href="button.css">
+  <style type="text/css">
+  div.header {width:1900px; height:100px; background: url(cyber.jpg) }
+    div.right_col {width:630px; height:auto; float:left; margin-bottom:-15px}
+    div.footer {width:1900px; height:auto; background-color:#717dc9; clear:both;border-top: 3px solid #10a276;}
+    div.left_col {width:600px; height:auto; float:left; margin-bottom:-15px;}
+    div.center_col {width:630px;height: auto; float:left; margin-left:15px; margin-right:5px;border-right:3px solid #10a276;border-left: 3px solid #10a276;}
+    div.g_menu {width:1894px; height:54px; background-color:#0d143d; border: 3px solid #10a276;}
+  </style>
+</head>
+<body>
+  <div id="block">
+    <div class="simple-linear">
+
+      <div class="header">
+        <h1 style = " font-size: 25pt; color:#e1e1e1; "><strong>WebProg.ru</strong></h1>
+      </div>
+
+      <div class="g_menu regular-progression">
+
+          <div class="dropdown" style="float:left;">
+            <button id="button2">JavaScript</button id="button2">
+              <div class="dropdown-content">
+                <a href="https://learn.javascript.ru/">Учебник по JavaScript</a>
+            </div>
+          </div>
+
+          <div class="dropdown" style="float:left;">
+            <button id="button2">HTML</button id="button2">
+            <div class="dropdown-content">
+              <a href="https://htmlbook.ru/samhtml">Самоучитель HTML</a>
+              <a href="https://htmlbook.ru/html">Справочник по HTML</a>
+              <a href="https://htmlbook.ru/html5">HTML5</a>
+            </div>
+          </div>
+
+          <div class="dropdown" style="float:left;">
+            <button id="button2">CSS</button id="button2">
+              <div class="dropdown-content">
+                <a href="https://htmlbook.ru/samcss">Самоучитель CSS</a>
+                <a href="https://htmlbook.ru/css">Справочник CSS</a>
+                <a href="https://htmlbook.ru/css3">CSS3</a>
+              </div>
+            </div>
+
+          <form action="web.html" target="_blank"> 
+            <button id="button2">Сайт</button id="button2">
+          </form>
+
+      </div>
+
+  <div class="left_col">
+    <div class="section ">
+      <p>Меню</p>
+      <ul>
+        <li><a href="web.html">Сайт</a></li>
+        <li><a href="back.html">Обратная связь</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div class="section "> 
+      <p>Вход</p>
+        <div style = "text-align: center;">
+
+          <form id="Test">
+            <label for="lname"><div style = "text-align:left; margin-bottom:-15px; margin-left:33px">E-mail:</div></label><br>
+            <input type="text" id="lname" name="lname" style="width: 400px; height: 25px;"><br>
+          </form>
+
+          <form id="Test">
+            <label for="adres"><div style = "text-align:left; margin-bottom:-15px; margin-left:33px">Пароль:</div></label><br>
+            <input type="text" id="adres" name="adres"  style="width: 400px; height: 25px;"><br>
+          </form>
+
+          <label>
+            <input type="checkbox" name="happy" value="yes">Запомнить?
+          </label>
+
+          <a style = " font-size: 14px; color:#167734; " href="https://example.com/">Регистрация</a>
+          <a style = "font-size: 14px; color:#167734; " href="https://example.com/">Восстановит пароль</a>
+          <br><br>
+          <button id="button2">Вход</button id="button2">
+        </div>
+        </div>
+  </div>
+
+  <div class="center_col" id="center">
+    <h1><strong>Тест</strong></h1>
+    <hr>
+    <p>Тест состоит из 5 вопросов, на 2 из надо будет дать письменный ответ, а в остальных выбрать один ответ из 4 предложенных.</p>
+    <h1>Вопрос &#8470;1</h1>
+    <p>&#129300;Введите ответ на вопрос:</p>
+    <p>Как расшифровывается аббревиатура HTML?</p>
+    <form id="Test">
+        <label for="lname">Ваш ответ:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Ответить">
+    </form>
+    <h1>Вопрос &#8470;2</h1>
+    <p>&#129300;Выберите верный ответ на вопрос:</p>
+    <p>Как называется стандартизированный язык гипертекстовой разметки документов для просмотра веб-страниц в браузере?</p>
+    <form id="Test">
+        <input type="radio" id="python" name="var" value="python">Python<br>
+        <input type="radio" id="HTML" name="var" value="HTML">HTML<br>
+        <input type="radio" id="Java" name="var" value="Java">Java<br>
+        <input type="radio" id="C++" name="var" value="C++">C++<br><br>
+        <input type="submit" value="Ответить">
+      </form>
+    <h1>Вопрос &#8470;3</h1>
+    <p>&#129300;Выберите верный ответ на вопрос:</p>
+    <p>Для чего используется тэг &lt;p&gt; в HTML</p>
+    <form id="Test"> 
+        <input type="radio" id="par" name="otv" value="par">Создает новый параграф<br>
+        <input type="radio" id="spis" name="otv" value="spis">Создает ненумерованный список<br>
+        <input type="radio" id="form" name="otv" value="form">Создает формы<br>
+        <input type="radio" id="table" name="otv" value="tablr">Создает таблицу<br><br>
+        <input type="submit" value="Ответить">
+      </form>
+    <h1>Вопрос &#8470;4</h1>
+    <p>&#129300;Введите ответ на вопрос:</p>
+    <p>В каком году была выпущена первая версия HTML?</p>
+    <form id="Test">
+        <label for="lname1">Ваш ответ:</label><br>
+        <input type="text" id="lname1" name="lname1"><br><br>
+        <input type="submit" value="Ответить">
+      </form>
+    <h1>Вопрос &#8470;5</h1>
+    <p>&#129300;Выберите верный ответ на вопрос:</p>
+    <p>Какого вида веб-разработки не существует?</p>
+    <form id="Test">
+        <input type="radio" id="1" name="gen" value="2">Backend-разработка<br>
+        <input type="radio" id="2" name="gen" value="2">Frontend-разработка<br>
+        <input type="radio" id="3" name="gen" value="3">Шпионская разработка<br>
+        <input type="radio" id="4" name="gen" value="4">Верстка страниц<br><br>
+        <input type="submit" value="Ответить">
+      </form>
+      <hr>
+    <h1 id="section4">Ответы</h1>
+    <table id="table2">
+        <tr>
+           <th>Вопрос</th>
+           <th>Ответ</th>
+        </tr>
+        <tr>
+           <td>1</td>
+           <td>HyperText Markup Language</td>
+        </tr>
+         <tr>
+           <td>2</td>
+           <td>HTML</td>
+         </tr>
+         <tr>
+            <td>3</td>
+            <td>Создает новый параграф</td>
+         </tr>
+         <tr>
+            <td>4</td>
+            <td> 1991</td>
+         </tr>
+         <tr>
+            <td>5</td>
+            <td>Шпионская разработка</td>
+         </tr>
+       </table>
+      <div style = "text-align: center;">
+        <form action="web.html" target="_blank">
+          <button id="button2">&#128072;Назад</button id="button2">
+        </form>
+      </div>
+    </div>
+  <div class="right_col">
+    
+    <div class="wrapper exmpl">
+      <img src="web_2.jpg">
+    </div>
+  </div>
+  
+  <div class="footer">
+      <p>Выполнил: Овчинников Олег Алексеевич</p>
+      <p>Группа: 3БИВТ_МП</p>
+      <p>Дисциплина: Web-программирование и основы web-дизайна</p>
+      <p>© 2023 МАУ</p>
+  </div>
+
+  </div>
+  </div>
+</body>
+</html>
